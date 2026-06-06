@@ -1,0 +1,15 @@
+[package]
+name = "swarm-signals"
+version = "0.1.0"
+edition = "2021"
+description = "Stigmergy-based coordination — agents communicate through environment modifications, not direct messages"
+license = "MIT"
+repository = "https://github.com/SuperInstance/swarm-signals"
+keywords = ["stigmergy", "swarm", "emergent", "coordination", "agents"]
+categories = ["simulation", "science"]
+
+[dev-dependencies]
+serde_json = "1"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
