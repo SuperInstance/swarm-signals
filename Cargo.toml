@@ -1,0 +1,9 @@
+[package]
+name = "swarm-signals"
+version = "0.1.0"
+edition = "2021"
+description = "Stigmergic communication for swarm agents with pheromone trails and foraging"
+repository = "https://github.com/SuperInstance/swarm-signals"
+license = "MIT"
+
+[dev-dependencies]
